@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "question": "Czym właściwie jest biofeedback?",
+      "answer": "To metoda treningu, w której z pomocą czujników obserwujemy reakcje Twojego organizmu — na przykład napięcie mięśni, oddech czy rytm serca. Dzięki bieżącej informacji zwrotnej uczysz się świadomie wpływać na te procesy i lepiej regulować stres."
+    },
+    {
+      "question": "Na czym polega logoterapia?",
+      "answer": "Logoterapia to podejście skoncentrowane na odnajdywaniu sensu. Zamiast skupiać się wyłącznie na objawach, wspólnie szukamy wartości i kierunku, które nadają Twojemu życiu znaczenie — zwłaszcza w trudnych momentach."
+    },
+    {
+      "question": "Czy muszę wybrać jedną metodę?",
+      "answer": "Nie. Metody można stosować osobno lub łączyć. Podczas rozmowy wstępnej wspólnie zdecydujemy, co będzie dla Ciebie najbardziej pomocne."
+    },
+    {
+      "question": "Ile trwa cały proces?",
+      "answer": "To zależy od Twoich potrzeb i celów. Niektóre osoby korzystają z kilku spotkań, inne pracują dłużej i cyklicznie. Kierunek ustalamy razem i weryfikujemy na bieżąco."
+    },
+    {
+      "question": "Czy spotkania są poufne?",
+      "answer": "Tak. Wszystko, o czym rozmawiamy, objęte jest tajemnicą i pozostaje wyłącznie między nami."
+    }
+  ]
+}

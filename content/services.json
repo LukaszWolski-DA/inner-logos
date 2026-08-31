@@ -1,0 +1,25 @@
+{
+  "services": [
+    {
+      "id": "biofeedback",
+      "title": "Trening biofeedback",
+      "shortDesc": "Mierzalna praca z reakcjami organizmu — uczysz się świadomie regulować napięcie, oddech i koncentrację na podstawie sygnałów z ciała.",
+      "icon": "activity",
+      "accent": "blue"
+    },
+    {
+      "id": "logoterapia",
+      "title": "Wsparcie logoterapeutyczne",
+      "shortDesc": "Rozmowa nastawiona na odnajdywanie sensu i wartości. Pracujemy nad tym, co daje Ci kierunek nawet w trudnych momentach.",
+      "icon": "compass",
+      "accent": "green"
+    },
+    {
+      "id": "polaczenie",
+      "title": "Podejście łączone",
+      "shortDesc": "Integracja obu metod: regulacja ciała wspiera pracę nad znaczeniem, a poczucie sensu wzmacnia trwałość efektów treningu.",
+      "icon": "combine",
+      "accent": "both"
+    }
+  ]
+}

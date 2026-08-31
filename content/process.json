@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "order": 1,
+      "title": "Kontakt",
+      "description": "Piszesz lub dzwonisz, opowiadasz w kilku zdaniach, co Cię sprowadza. Wspólnie ustalamy dogodny termin."
+    },
+    {
+      "order": 2,
+      "title": "Rozmowa wstępna",
+      "description": "Pierwsze spotkanie poświęcamy poznaniu Twojej sytuacji, oczekiwań i celów. Bez presji i bez zobowiązań."
+    },
+    {
+      "order": 3,
+      "title": "Plan pracy",
+      "description": "Dobieramy metody — biofeedback, logoterapię lub ich połączenie — i ustalamy rytm spotkań dopasowany do Ciebie."
+    },
+    {
+      "order": 4,
+      "title": "Regularna praca",
+      "description": "Spotykamy się cyklicznie, obserwując postępy i dostosowując kierunek do tego, czego aktualnie potrzebujesz."
+    }
+  ]
+}
