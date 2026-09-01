@@ -11,13 +11,14 @@ interface NavLink {
   anchor: string
 }
 
+// Odnośniki z prefiksem "/" działają też z podstron (np. /polityka-prywatnosci)
 const navLinks: NavLink[] = [
-  { label: 'O gabinecie', anchor: '#o-gabinecie' },
-  { label: 'Usługi', anchor: '#uslugi' },
-  { label: 'Dla kogo', anchor: '#dla-kogo' },
-  { label: 'Pierwsza wizyta', anchor: '#pierwsza-wizyta' },
-  { label: 'Cennik', anchor: '#cennik' },
-  { label: 'FAQ', anchor: '#faq' },
+  { label: 'O gabinecie', anchor: '/#o-gabinecie' },
+  { label: 'Usługi', anchor: '/#uslugi' },
+  { label: 'Dla kogo', anchor: '/#dla-kogo' },
+  { label: 'Pierwsza wizyta', anchor: '/#pierwsza-wizyta' },
+  { label: 'Cennik', anchor: '/#cennik' },
+  { label: 'FAQ', anchor: '/#faq' },
 ]
 
 export function SiteHeader() {
@@ -30,7 +31,7 @@ export function SiteHeader() {
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"
       >
         <a
-          href="#hero"
+          href="/#hero"
           className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-foreground"
         >
           <Image
@@ -59,7 +60,7 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <a
-            href="#kontakt"
+            href="/#kontakt"
             className={cn(
               buttonVariants({ size: 'lg' }),
               'hidden bg-accent-blue px-4 font-medium text-accent-blue-foreground hover:bg-accent-blue/90 md:inline-flex',
@@ -99,7 +100,7 @@ export function SiteHeader() {
             ))}
             <li className="pt-2">
               <a
-                href="#kontakt"
+                href="/#kontakt"
                 onClick={() => setOpen(false)}
                 className={cn(
                   buttonVariants({ size: 'lg' }),

@@ -1,8 +1,9 @@
 export interface SiteFooterProps {
   privacyPolicyText: string
+  privacyPolicyHref: string
 }
 
-export function SiteFooter({ privacyPolicyText }: SiteFooterProps) {
+export function SiteFooter({ privacyPolicyText, privacyPolicyHref }: SiteFooterProps) {
   const year = new Date().getFullYear()
 
   return (
@@ -18,9 +19,8 @@ export function SiteFooter({ privacyPolicyText }: SiteFooterProps) {
         </div>
 
         <nav aria-label="Nawigacja w stopce">
-          {/* TODO: podmień na docelowy odnośnik do polityki prywatności */}
           <a
-            href="#"
+            href={privacyPolicyHref}
             className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
           >
             {privacyPolicyText}
