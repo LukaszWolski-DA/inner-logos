@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '@/components/ui/button'
@@ -28,11 +29,18 @@ export function SiteHeader() {
         aria-label="Nawigacja główna"
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"
       >
-        {/* TODO: podmień placeholder na dostarczony plik logo */}
         <a
           href="#hero"
-          className="text-lg font-semibold tracking-tight text-foreground"
+          className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-foreground"
         >
+          <Image
+            src="/logo-icon.png"
+            alt=""
+            width={40}
+            height={40}
+            priority
+            className="size-9"
+          />
           Inner Logos
         </a>
 

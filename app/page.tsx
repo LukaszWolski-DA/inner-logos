@@ -28,7 +28,10 @@ export default function Page() {
       <main>
         <Hero {...heroContent} />
         <About {...aboutContent} />
-        <Services services={servicesContent.services as ServiceItem[]} />
+        <Services
+          services={servicesContent.services as ServiceItem[]}
+          disclaimer={servicesContent.disclaimer}
+        />
         <Audience {...audienceContent} />
         <Process steps={processContent.steps} />
         <Pricing items={pricingContent.items} />

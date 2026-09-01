@@ -15,6 +15,7 @@ export interface ServiceItem {
 
 export interface ServicesProps {
   services: ServiceItem[]
+  disclaimer: string
 }
 
 const iconMap: Record<string, LucideIcon> = {
@@ -36,7 +37,7 @@ const accentIconWrap: Record<ServiceAccent, string> = {
   both: 'bg-accent-blue/10 text-accent-blue',
 }
 
-export function Services({ services }: ServicesProps) {
+export function Services({ services, disclaimer }: ServicesProps) {
   return (
     <section id="uslugi" className="border-b border-hairline">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
@@ -86,6 +87,13 @@ export function Services({ services }: ServicesProps) {
             )
           })}
         </div>
+
+        <p
+          role="note"
+          className="mt-10 max-w-3xl text-pretty text-sm leading-relaxed text-muted-foreground"
+        >
+          {disclaimer}
+        </p>
       </div>
     </section>
   )

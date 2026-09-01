@@ -2,23 +2,18 @@
   "items": [
     {
       "name": "Konsultacja wstępna",
-      "duration": "50 minut",
-      "price": "200 zł"
+      "duration": "30 minut",
+      "price": "50 zł"
     },
     {
       "name": "Sesja biofeedback",
-      "duration": "50 minut",
-      "price": "220 zł"
+      "duration": "40 minut",
+      "price": "100 zł"
     },
     {
       "name": "Sesja logoterapeutyczna",
-      "duration": "50 minut",
-      "price": "200 zł"
-    },
-    {
-      "name": "Sesja łączona",
-      "duration": "80 minut",
-      "price": "300 zł"
+      "duration": "45 minut",
+      "price": "100 zł"
     }
   ]
 }

@@ -2,19 +2,35 @@
   "items": [
     {
       "question": "Czym właściwie jest biofeedback?",
-      "answer": "To metoda treningu, w której z pomocą czujników obserwujemy reakcje Twojego organizmu — na przykład napięcie mięśni, oddech czy rytm serca. Dzięki bieżącej informacji zwrotnej uczysz się świadomie wpływać na te procesy i lepiej regulować stres."
+      "answer": "To metoda treningu, w której z pomocą czujników obserwujemy reakcje Twojego organizmu — na przykład napięcie mięśni, oddech czy rytm serca. Dzięki bieżącej informacji zwrotnej uczysz się świadomie wpływać na te procesy i lepiej regulować napięcie oraz stres."
     },
     {
-      "question": "Na czym polega logoterapia?",
-      "answer": "Logoterapia to podejście skoncentrowane na odnajdywaniu sensu. Zamiast skupiać się wyłącznie na objawach, wspólnie szukamy wartości i kierunku, które nadają Twojemu życiu znaczenie — zwłaszcza w trudnych momentach."
+      "question": "Na czym polega wsparcie logoterapeutyczne?",
+      "answer": "To rozmowa skoncentrowana na odnajdywaniu sensu. Zamiast skupiać się wyłącznie na objawach, wspólnie szukamy wartości i kierunku, które nadają Twojemu życiu znaczenie — zwłaszcza w trudnych momentach. Wsparcie jest inspirowane logoterapią."
     },
     {
       "question": "Czy muszę wybrać jedną metodę?",
-      "answer": "Nie. Metody można stosować osobno lub łączyć. Podczas rozmowy wstępnej wspólnie zdecydujemy, co będzie dla Ciebie najbardziej pomocne."
+      "answer": "Nie. Biofeedback i wsparcie logoterapeutyczne można stosować osobno lub łączyć. Podczas konsultacji wstępnej wspólnie zdecydujemy, co będzie dla Ciebie najbardziej pomocne."
     },
     {
-      "question": "Ile trwa cały proces?",
-      "answer": "To zależy od Twoich potrzeb i celów. Niektóre osoby korzystają z kilku spotkań, inne pracują dłużej i cyklicznie. Kierunek ustalamy razem i weryfikujemy na bieżąco."
+      "question": "Jak często i jak długo trwają spotkania?",
+      "answer": "Biofeedback najlepiej działa przy spotkaniach raz w tygodniu; dwa razy w tygodniu przyspiesza efekty. Wsparcie logoterapeutyczne to zwykle około dziesięciu spotkań, również raz w tygodniu. Ostateczny plan ustalamy indywidualnie i weryfikujemy na bieżąco."
+    },
+    {
+      "question": "Czy trzeba przygotować się do pierwszego spotkania?",
+      "answer": "Nie. Przygotowanie nie jest potrzebne — wystarczy, że przyjdziesz z tym, z czym aktualnie się mierzysz. Pierwsze spotkanie służy rozmowie i ustaleniu kierunku pracy."
+    },
+    {
+      "question": "Czy biofeedback jest bezpieczny?",
+      "answer": "Tak. Biofeedback jest nieinwazyjny — czujniki jedynie odczytują sygnały z ciała, niczego nie stymulują. Przeciwwskazaniem są ciężkie zaburzenia psychiczne, w tym choroba afektywna dwubiegunowa, schizofrenia i ciężkie formy depresji — w takich przypadkach biofeedback nie jest wskazany. Jeśli leczysz się psychiatrycznie, rozpoczęcie treningu skonsultuj wcześniej z lekarzem prowadzącym."
+    },
+    {
+      "question": "Czy biofeedback jest odpowiedni dla dzieci?",
+      "answer": "Tak. Biofeedback jest odpowiedni dla dzieci — trening dobieramy do wieku i możliwości dziecka."
+    },
+    {
+      "question": "Czy spotkania mogą odbywać się online?",
+      "answer": "Wsparcie logoterapeutyczne może odbywać się online, choć zalecana jest forma stacjonarna. Biofeedback prowadzimy wyłącznie stacjonarnie, ponieważ wymaga sprzętu i czujników."
     },
     {
       "question": "Czy spotkania są poufne?",

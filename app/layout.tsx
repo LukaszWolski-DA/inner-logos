@@ -9,7 +9,12 @@ const geistSans = Geist({
   display: 'swap',
 })
 
+// Domena docelowa: inner-logos.pl (jeszcze niekupiona). Na Vercel można nadpisać
+// przez NEXT_PUBLIC_SITE_URL, np. adresem preview, do czasu podpięcia domeny.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://inner-logos.pl'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'Inner Logos — Biofeedback i wsparcie logoterapeutyczne',
   description:
     'Inner Logos to gabinet terapeutyczny łączący trening biofeedback z podejściem logoterapeutycznym. Umów pierwszą wizytę i odzyskaj wewnętrzną równowagę.',
@@ -20,12 +25,14 @@ export const metadata: Metadata = {
       'Gabinet terapeutyczny łączący trening biofeedback z podejściem logoterapeutycznym.',
     type: 'website',
     locale: 'pl_PL',
-    // TODO: podmień na docelowy adres i grafikę Open Graph
+    url: '/',
+    siteName: 'Inner Logos',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Inner Logos' }],
   },
   icons: {
-    // TODO: podmień placeholdery na docelowy favicon
     icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
 }
 

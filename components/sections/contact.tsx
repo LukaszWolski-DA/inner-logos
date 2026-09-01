@@ -89,11 +89,11 @@ export function Contact({
             </div>
           </div>
 
-          {/* TODO: podmień src na docelowy embed Google Maps gabinetu */}
+          {/* Bezkluczowy embed wyszukiwania Google Maps na realny adres gabinetu */}
           <div className="overflow-hidden rounded-xl border border-hairline">
             <iframe
-              title="Mapa lokalizacji gabinetu Inner Logos"
-              src="https://www.google.com/maps?q=Warszawa&output=embed"
+              title="Mapa lokalizacji gabinetu Inner Logos — ul. Piłsudskiego 23-29, Oborniki Śląskie"
+              src="https://www.google.com/maps?q=ul.%20Pi%C5%82sudskiego%2023-29%2C%20Oborniki%20%C5%9Al%C4%85skie&output=embed"
               className="h-72 w-full lg:h-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

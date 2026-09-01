@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '@/components/ui/button'
 
@@ -13,6 +14,14 @@ export function Hero({ title, subtitle, tagline, ctaLabel, ctaAnchor }: HeroProp
   return (
     <section id="hero" className="border-b border-hairline">
       <div className="mx-auto max-w-3xl px-6 py-28 text-center md:py-40">
+        <Image
+          src="/logo-icon-512.png"
+          alt="Inner Logos"
+          width={512}
+          height={512}
+          priority
+          className="mx-auto mb-8 size-24 md:size-32"
+        />
         <p className="mb-6 text-sm font-medium tracking-wide text-accent-blue">
           {tagline}
         </p>

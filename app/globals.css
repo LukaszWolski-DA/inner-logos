@@ -70,9 +70,11 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: #e5e5e5;
   --input: #e5e5e5;
-  --ring: #2080a8;
+  --ring: #1c7699;
   --hairline: #e5e5e5;
-  --accent-blue: #2080a8;
+  /* Brand blue z logo to #2080A8; przyciemnione do #1C7699 dla kontrastu WCAG AA
+     (biały tekst na tle oraz tekst na bieli osiągają ~5.1:1 zamiast 4.45:1). */
+  --accent-blue: #1c7699;
   --accent-blue-foreground: #ffffff;
   --accent-green: #80b058;
   --accent-green-foreground: #1a1a1a;
