@@ -1,4 +1,6 @@
 {
   "privacyPolicyText": "Polityka prywatności",
-  "privacyPolicyHref": "/polityka-prywatnosci"
+  "privacyPolicyHref": "/polityka-prywatnosci",
+  "childProtectionText": "Standardy ochrony małoletnich",
+  "childProtectionHref": "/standardy-ochrony-maloletnich"
 }

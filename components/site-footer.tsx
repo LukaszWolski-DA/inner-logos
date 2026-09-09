@@ -1,9 +1,16 @@
 export interface SiteFooterProps {
   privacyPolicyText: string
   privacyPolicyHref: string
+  childProtectionText: string
+  childProtectionHref: string
 }
 
-export function SiteFooter({ privacyPolicyText, privacyPolicyHref }: SiteFooterProps) {
+export function SiteFooter({
+  privacyPolicyText,
+  privacyPolicyHref,
+  childProtectionText,
+  childProtectionHref,
+}: SiteFooterProps) {
   const year = new Date().getFullYear()
 
   return (
@@ -18,12 +25,21 @@ export function SiteFooter({ privacyPolicyText, privacyPolicyHref }: SiteFooterP
           </span>
         </div>
 
-        <nav aria-label="Nawigacja w stopce">
+        <nav
+          aria-label="Nawigacja w stopce"
+          className="flex flex-wrap gap-x-5 gap-y-1"
+        >
           <a
             href={privacyPolicyHref}
             className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
           >
             {privacyPolicyText}
+          </a>
+          <a
+            href={childProtectionHref}
+            className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
+          >
+            {childProtectionText}
           </a>
         </nav>
       </div>
