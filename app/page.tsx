@@ -12,6 +12,7 @@ import { Contact } from '@/components/sections/contact'
 
 import heroContent from '@/content/hero.json'
 import aboutContent from '@/content/about.json'
+import certificatesContent from '@/content/certificates.json'
 import servicesContent from '@/content/services.json'
 import audienceContent from '@/content/audience.json'
 import processContent from '@/content/process.json'
@@ -27,7 +28,11 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero {...heroContent} />
-        <About {...aboutContent} />
+        <About
+          {...aboutContent}
+          certificationLinkText={certificatesContent.certificationLinkText}
+          certificatesHref="/certyfikaty"
+        />
         <Services
           services={servicesContent.services as ServiceItem[]}
           disclaimer={servicesContent.disclaimer}

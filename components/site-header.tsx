@@ -11,7 +11,8 @@ interface NavLink {
   anchor: string
 }
 
-// Odnośniki z prefiksem "/" działają też z podstron (np. /polityka-prywatnosci)
+// Odnośniki z prefiksem "/" działają też z podstron (np. /polityka-prywatnosci).
+// "anchor" bywa też pełną trasą (np. /certyfikaty) — <a href> obsłuży oba.
 const navLinks: NavLink[] = [
   { label: 'O gabinecie', anchor: '/#o-gabinecie' },
   { label: 'Usługi', anchor: '/#uslugi' },
@@ -19,6 +20,7 @@ const navLinks: NavLink[] = [
   { label: 'Pierwsza wizyta', anchor: '/#pierwsza-wizyta' },
   { label: 'Cennik', anchor: '/#cennik' },
   { label: 'FAQ', anchor: '/#faq' },
+  { label: 'Certyfikaty', anchor: '/certyfikaty' },
 ]
 
 export function SiteHeader() {

@@ -1,0 +1,10 @@
+# Traktuj te typy jako binarne — bez konwersji końców linii (ważne dla PDF)
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.woff  binary
+*.woff2 binary

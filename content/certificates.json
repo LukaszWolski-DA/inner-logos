@@ -1,0 +1,25 @@
+{
+  "sectionTitle": "Certyfikaty",
+  "emptyStateText": "Certyfikaty pojawią się tutaj wkrótce — obecnie w trakcie certyfikacji logoterapeutycznej.",
+  "certificationLinkText": "certyfikacji",
+  "items": [
+    {
+      "id": "test-01",
+      "title": "Logoterapia — kurs podstawowy (TEST)",
+      "issuer": "Testowy Instytut Logoterapii",
+      "dateObtained": "2026-09",
+      "thumbnailUrl": "/certificates/cert-01-logoterapia-podstawy-thumb.jpg",
+      "fileUrl": "/certificates/cert-01-logoterapia-podstawy.pdf",
+      "fileType": "pdf"
+    },
+    {
+      "id": "test-02",
+      "title": "Biofeedback EEG — poziom I (TEST)",
+      "issuer": "Testowe Centrum Szkoleń Biofeedback",
+      "dateObtained": "2026-09",
+      "thumbnailUrl": "/certificates/cert-02-biofeedback-i-thumb.jpg",
+      "fileUrl": "/certificates/cert-02-biofeedback-i.pdf",
+      "fileType": "pdf"
+    }
+  ]
+}
