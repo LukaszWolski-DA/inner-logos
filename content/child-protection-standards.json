@@ -1,5 +1,362 @@
 {
   "fullVersionUrl": null,
   "shortVersionUrl": null,
-  "emptyStateText": "Dokument w przygotowaniu."
+  "emptyStateText": "Dokument w przygotowaniu.",
+  "fullVersion": {
+    "subtitle": "W gabinecie biofeedback",
+    "introHeading": "Wprowadzenie",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "Najważniejszym zadaniem naszego gabinetu jest zapewnienie dzieciom i młodzieży bezpiecznych warunków podczas korzystania z zajęć biofeedback."
+      },
+      {
+        "type": "paragraph",
+        "text": "Każde dziecko ma prawo do szacunku, ochrony swojej godności, prywatności i bezpieczeństwa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Standardy ochrony małoletnich określają zasady, których przestrzegamy, aby zapobiegać krzywdzeniu dzieci oraz właściwie reagować, gdy pojawi się podejrzenie, że dziecku może dziać się krzywda."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Najważniejsze zasady",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "W gabinecie:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "dobro i bezpieczeństwo dziecka są najważniejsze,",
+              "każde dziecko traktujemy z szacunkiem i cierpliwością,",
+              "szanujemy godność, prywatność i granice dziecka,",
+              "nie stosujemy przemocy fizycznej ani psychicznej,",
+              "nie wyśmiewamy, nie zawstydzamy i nie poniżamy dzieci,",
+              "nie wykorzystujemy przewagi osoby dorosłej nad dzieckiem,",
+              "reagujemy na każde podejrzenie krzywdzenia dziecka,",
+              "dbamy o bezpieczne warunki prowadzenia treningów biofeedback,",
+              "chronimy informacje dotyczące dziecka zgodnie z obowiązującymi zasadami."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bezpieczna relacja z dzieckiem",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Osoba prowadząca trening biofeedback:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "odnosi się do dziecka spokojnie i z szacunkiem,",
+              "używa języka odpowiedniego do wieku dziecka,",
+              "słucha dziecka i traktuje jego wypowiedzi poważnie,",
+              "wyjaśnia dziecku, na czym będzie polegało spotkanie,",
+              "informuje dziecko o wykonywanych czynnościach,",
+              "respektuje jego granice i potrzeby,",
+              "nie stosuje krzyku, gróźb, wyzwisk ani kar,",
+              "nie wykorzystuje swojej pozycji do wywierania nacisku na dziecko,",
+              "nie faworyzuje żadnego dziecka,",
+              "nie nawiązuje z dzieckiem relacji, która wykracza poza profesjonalny charakter kontaktu."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Dziecko nie może być zmuszane do wykonywania ćwiczenia lub czynności, której się obawia, bez wcześniejszego wyjaśnienia jej celu i zasad."
+          }
+        ]
+      },
+      {
+        "heading": "Kontakt fizyczny",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trening biofeedback może wiązać się z zastosowaniem odpowiednich urządzeń lub czujników."
+          },
+          {
+            "type": "paragraph",
+            "text": "Przed ich zastosowaniem dziecko powinno zostać poinformowane w sposób dla niego zrozumiały:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "co będzie wykonywane,",
+              "dlaczego jest to potrzebne,",
+              "gdzie i w jaki sposób zostanie umieszczony czujnik,",
+              "czego może się spodziewać podczas badania lub treningu."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Kontakt fizyczny powinien być ograniczony do sytuacji, w których jest potrzebny do prawidłowego wykonania czynności związanych z treningiem."
+          },
+          {
+            "type": "paragraph",
+            "text": "Każdorazowo należy szanować granice dziecka."
+          },
+          {
+            "type": "paragraph",
+            "text": "Jeżeli dziecko sygnalizuje dyskomfort, należy zatrzymać czynność i wyjaśnić sytuację."
+          }
+        ]
+      },
+      {
+        "heading": "Prywatność dziecka",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Podczas wizyty dbamy o prywatność dziecka."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nie należy:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "pozostawiać dziecka bez odpowiedniej opieki w sytuacjach, w których mogłoby to zagrażać jego bezpieczeństwu,",
+              "omawiać spraw dziecka w obecności osób nieuprawnionych,",
+              "ujawniać informacji dotyczących dziecka osobom, które nie mają prawa ich otrzymać,",
+              "wykonywać zdjęć lub nagrań bez wymaganej zgody,",
+              "udostępniać informacji o dziecku w Internecie bez odpowiedniej podstawy i zgody."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bezpieczny trening biofeedback",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Gabinet zapewnia warunki odpowiednie do bezpiecznego prowadzenia treningów."
+          },
+          {
+            "type": "paragraph",
+            "text": "Osoba prowadząca zajęcia:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "korzysta ze sprzętu zgodnie z jego przeznaczeniem,",
+              "przestrzega zasad higieny,",
+              "kontroluje stan urządzeń i akcesoriów wykorzystywanych podczas treningu,",
+              "dostosowuje sposób prowadzenia zajęć do wieku i możliwości dziecka,",
+              "obserwuje samopoczucie dziecka podczas zajęć,",
+              "reaguje na zgłaszany przez dziecko dyskomfort lub złe samopoczucie."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Dziecko powinno wiedzieć, że może powiedzieć:"
+          },
+          {
+            "type": "quotes",
+            "items": [
+              "„Źle się czuję.”",
+              "„Chcę przerwy.”",
+              "„Nie rozumiem.”",
+              "„Nie chcę tego robić.”"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Takie informacje należy traktować poważnie."
+          }
+        ]
+      },
+      {
+        "heading": "Zasady korzystania z Internetu i urządzeń elektronicznych",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jeżeli podczas zajęć wykorzystywany jest komputer, tablet, Internet lub inne urządzenie elektroniczne:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "korzystamy z niego wyłącznie w celach związanych z zajęciami,",
+              "chronimy dane dziecka,",
+              "nie udostępniamy dziecku treści nieodpowiednich do jego wieku,",
+              "nie wykonujemy zdjęć ani nagrań bez odpowiedniej zgody,",
+              "zabezpieczamy urządzenia przed dostępem osób nieuprawnionych."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Ochrona informacji o dziecku",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Informacje uzyskane podczas pracy z dzieckiem traktuję jako poufne i chronimy je zgodnie z obowiązującymi przepisami."
+          },
+          {
+            "type": "paragraph",
+            "text": "Informacje o dziecku mogą być przekazywane innym osobom wyłącznie wtedy, gdy istnieje do tego odpowiednia podstawa prawna lub jest to konieczne dla zapewnienia bezpieczeństwa dziecka."
+          },
+          {
+            "type": "paragraph",
+            "text": "Pracownik gabinetu jest zobowiązany do zachowania poufności również po zakończeniu współpracy z gabinetem, w zakresie wynikającym z obowiązujących przepisów."
+          }
+        ]
+      },
+      {
+        "heading": "Co robimy, gdy podejrzewamy, że dziecko jest krzywdzone?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jeżeli osoba pracująca w gabinecie zauważy niepokojące zachowanie lub uzyska informację, że dziecko może być krzywdzone, nie ignoruje tej informacji."
+          },
+          {
+            "type": "paragraph",
+            "text": "Podejmujemy działania odpowiednie do sytuacji, w szczególności:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "zapewniamy dziecku bezpieczeństwo,",
+              "wysłuchujemy dziecka spokojnie i bez oceniania,",
+              "nie wywieramy presji na dziecko, aby opowiadało więcej, niż chce lub może powiedzieć,",
+              "zapisujemy istotne informacje dotyczące zdarzenia,",
+              "przekazujemy informację osobie odpowiedzialnej za ochronę małoletnich w gabinecie,",
+              "podejmujemy działania przewidziane w procedurze interwencji,",
+              "w sytuacjach wymagających tego prawem zawiadamiamy właściwe osoby lub instytucje."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Nie należy obiecywać dziecku całkowitego zachowania informacji w tajemnicy, jeżeli przekazanie informacji jest konieczne do zapewnienia mu bezpieczeństwa."
+          }
+        ]
+      },
+      {
+        "heading": "Gdy dziecko zgłasza, że jest krzywdzone",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jeżeli dziecko mówi, że ktoś je krzywdzi:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "zachowujemy spokój,",
+              "słuchamy dziecka,",
+              "traktujemy jego słowa poważnie,",
+              "nie obwiniamy dziecka,",
+              "nie okazujemy niedowierzania,",
+              "nie sugerujemy odpowiedzi,",
+              "nie wypytujemy dziecka wielokrotnie o to samo,",
+              "zapewniamy dziecko, że dobrze zrobiło, mówiąc o problemie,",
+              "podejmujemy działania zgodne z obowiązującą procedurą."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Możemy powiedzieć:"
+          },
+          {
+            "type": "quotes",
+            "items": [
+              "„Dobrze, że mi o tym powiedziałeś/powiedziałaś.”",
+              "„To nie jest Twoja wina.”",
+              "„Postaramy się znaleźć pomoc.”"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Zachowanie pracownika w sytuacji trudnej",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Pracownik gabinetu powinien zawsze zachować profesjonalizm."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nie wolno mu:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "stosować przemocy,",
+              "krzyczeć na dziecko,",
+              "obrażać go lub poniżać,",
+              "straszyć dziecka,",
+              "szantażować,",
+              "wyśmiewać,",
+              "stosować kar naruszających godność dziecka,",
+              "wykorzystywać zależności dziecka od osoby dorosłej,",
+              "podejmować zachowań o charakterze seksualnym,",
+              "nawiązywać z dzieckiem relacji o charakterze seksualnym lub romantycznym."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Równe traktowanie",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Każde dziecko traktujemy równo i z szacunkiem."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nie wolno dyskryminować dziecka ze względu na:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "wiek,",
+              "płeć,",
+              "wygląd,",
+              "niepełnosprawność,",
+              "stan zdrowia,",
+              "sytuację rodzinną,",
+              "sytuację materialną,",
+              "pochodzenie,",
+              "język,",
+              "przekonania,",
+              "inne cechy dziecka lub jego rodziny."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Każde dziecko ma prawo do bezpiecznego i pełnego szacunku traktowania."
+          }
+        ]
+      },
+      {
+        "heading": "Zasady dla rodziców i opiekunów",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rodzice i opiekunowie są ważnymi partnerami w zapewnianiu dziecku bezpieczeństwa."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rodzice/opiekunowie mogą:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "zadawać pytania dotyczące zasad bezpieczeństwa w gabinecie,",
+              "uzyskać informacje dotyczące organizacji zajęć zgodnie z obowiązującymi zasadami,",
+              "zgłaszać swoje obawy dotyczące bezpieczeństwa dziecka,",
+              "zgłaszać niepokojące zachowania pracowników gabinetu."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Wszelkie zgłoszenia dotyczące bezpieczeństwa dziecka powinny być traktowane poważnie i rozpatrywane zgodnie z obowiązującymi procedurami."
+          }
+        ]
+      }
+    ]
+  },
+  "shortVersion": null
 }
