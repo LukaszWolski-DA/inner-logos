@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
             Polityka prywatności
           </h1>
           <p className="mt-3 text-sm text-muted-foreground">
-            Ostatnia aktualizacja: 1 września 2026
+            Ostatnia aktualizacja: 25 września 2026
           </p>
 
           <div className="mt-12 flex flex-col gap-10 text-base leading-relaxed text-muted-foreground">
@@ -51,10 +51,11 @@ export default function PrivacyPolicyPage() {
                   <span className="font-medium text-foreground">
                     Kontakt i umówienie wizyty.
                   </span>{' '}
-                  Jeśli napiszesz wiadomość e-mail lub zadzwonisz, przetwarzamy
-                  dane, które sam(a) podasz — zwykle imię, adres e-mail lub numer
-                  telefonu oraz treść wiadomości. Robimy to, aby odpowiedzieć na
-                  zapytanie i ustalić termin spotkania. Podstawą prawną jest art.
+                  Jeśli napiszesz wiadomość e-mail, wyślesz formularz kontaktowy
+                  lub zadzwonisz, przetwarzamy dane, które sam(a) podasz — zwykle
+                  imię i nazwisko, adres e-mail lub numer telefonu oraz treść
+                  wiadomości. Robimy to, aby odpowiedzieć na zapytanie i ustalić
+                  termin spotkania. Podstawą prawną jest art.
                   6 ust. 1 lit. b RODO (podjęcie działań przed zawarciem umowy)
                   oraz art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes
                   polegający na obsłudze korespondencji).
@@ -68,9 +69,15 @@ export default function PrivacyPolicyPage() {
                   omawiamy je podczas wizyty.
                 </li>
                 <li>
-                  Strona nie zawiera formularza kontaktowego ani systemu
-                  rezerwacji online. Kontakt odbywa się bezpośrednio, z użyciem
-                  Twojego programu pocztowego lub telefonu.
+                  <span className="font-medium text-foreground">
+                    Formularz kontaktowy.
+                  </span>{' '}
+                  Dane wpisane w formularzu (imię i nazwisko, adres e-mail,
+                  opcjonalnie telefon oraz treść wiadomości) są przesyłane na
+                  skrzynkę e-mail gabinetu i służą wyłącznie do odpowiedzi na
+                  Twoje zapytanie. Nie zapisujemy ich w bazie danych ani nie
+                  wysyłamy automatycznych odpowiedzi. Strona nie zawiera systemu
+                  rezerwacji online.
                 </li>
               </ul>
             </section>
@@ -133,7 +140,15 @@ export default function PrivacyPolicyPage() {
                 niezbędnych do prowadzenia strony:
               </p>
               <ul className="mt-3 flex flex-col gap-2">
-                <li>Vercel Inc. — hosting strony i statystyka odwiedzin,</li>
+                <li>
+                  Vercel Inc. — hosting strony i statystyka odwiedzin (przez
+                  infrastrukturę hostingową przechodzą też dane wysyłane
+                  formularzem),
+                </li>
+                <li>
+                  OVH SAS (OVHcloud) — poczta e-mail gabinetu, na którą trafiają
+                  wiadomości z formularza,
+                </li>
                 <li>
                   Google Ireland Limited / Google LLC — osadzona mapa lokalizacji.
                 </li>

@@ -1,6 +1,5 @@
 import { MapPin, Phone, Mail, Video } from 'lucide-react'
-import { cn } from '@/lib/utils'
-import { buttonVariants } from '@/components/ui/button'
+import { ContactForm, type ContactFormTexts } from '@/components/sections/contact-form'
 
 export interface ContactProps {
   address: string
@@ -8,6 +7,7 @@ export interface ContactProps {
   onlineAvailable: boolean
   phone: string
   mailto: string
+  form: ContactFormTexts
 }
 
 export function Contact({
@@ -16,6 +16,7 @@ export function Contact({
   onlineAvailable,
   phone,
   mailto,
+  form,
 }: ContactProps) {
   return (
     <section id="kontakt" className="border-b border-hairline bg-muted/40">
@@ -75,17 +76,20 @@ export function Contact({
               </div>
             ) : null}
 
-            <div>
-              <a
-                href={`mailto:${mailto}`}
-                className={cn(
-                  buttonVariants({ size: 'lg' }),
-                  'h-11 bg-accent-blue px-6 text-base font-medium text-accent-blue-foreground hover:bg-accent-blue/90',
-                )}
-              >
-                <Mail className="size-4" aria-hidden="true" />
-                Napisz wiadomość
-              </a>
+            <div className="flex items-start gap-4">
+              <Mail
+                className="mt-1 size-5 shrink-0 text-accent-blue"
+                aria-hidden="true"
+              />
+              <div>
+                <p className="text-base font-medium text-foreground">E-mail</p>
+                <a
+                  href={`mailto:${mailto}`}
+                  className="mt-1 inline-block text-base text-muted-foreground transition-colors hover:text-accent-blue"
+                >
+                  {mailto}
+                </a>
+              </div>
             </div>
           </div>
 
@@ -99,6 +103,10 @@ export function Contact({
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
+        </div>
+
+        <div className="mt-16 max-w-3xl">
+          <ContactForm {...form} mailto={mailto} />
         </div>
       </div>
     </section>

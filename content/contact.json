@@ -3,5 +3,13 @@
   "parkingInfo": "Parking od ul. Kościuszki.",
   "onlineAvailable": true,
   "phone": "999 999 999",
-  "mailto": "kontakt@inner-logos.pl"
+  "mailto": "kontakt@inner-logos.pl",
+  "form": {
+    "title": "Napisz wiadomość",
+    "intro": "Wypełnij formularz, a odezwę się na podany adres e-mail.",
+    "healthNote": "Prosimy, aby w wiadomości nie opisywać szczegółów dotyczących zdrowia — omówimy je podczas wizyty.",
+    "consentText": "Wysyłając formularz, przekazujesz swoje dane (imię, adres e-mail, opcjonalnie telefon oraz treść wiadomości) administratorowi, Karolinie Kasperkiewicz, w celu udzielenia odpowiedzi i umówienia wizyty. Więcej informacji, w tym o Twoich prawach, znajdziesz w polityce prywatności.",
+    "successText": "Dziękuję za wiadomość. Odezwę się na podany adres e-mail.",
+    "errorText": "Nie udało się wysłać wiadomości. Spróbuj ponownie za chwilę lub napisz bezpośrednio na adres e-mail."
+  }
 }
