@@ -4,21 +4,21 @@
   "certificationLinkText": "certyfikacji",
   "items": [
     {
-      "id": "test-01",
-      "title": "Logoterapia — kurs podstawowy (TEST)",
-      "issuer": "Testowy Instytut Logoterapii",
+      "id": "studium-logoterapii-i-rok",
+      "title": "Studium Logoterapii (I rok całościowego kursu)",
+      "issuer": "Institute of Biofeedback and Noo-Psychosomatic",
       "dateObtained": "2026-09",
-      "thumbnailUrl": "/certificates/cert-01-logoterapia-podstawy-thumb.jpg",
-      "fileUrl": "/certificates/cert-01-logoterapia-podstawy.pdf",
+      "thumbnailUrl": "/certificates/cert-01-studium-logoterapii-thumb.jpg",
+      "fileUrl": "/certificates/cert-01-studium-logoterapii.pdf",
       "fileType": "pdf"
     },
     {
-      "id": "test-02",
-      "title": "Biofeedback EEG — poziom I (TEST)",
-      "issuer": "Testowe Centrum Szkoleń Biofeedback",
-      "dateObtained": "2026-09",
-      "thumbnailUrl": "/certificates/cert-02-biofeedback-i-thumb.jpg",
-      "fileUrl": "/certificates/cert-02-biofeedback-i.pdf",
+      "id": "eeg-biofeedback-i-stopnia",
+      "title": "EEG-Biofeedback I stopnia",
+      "issuer": "Biomed Centrum Rehabilitacji Poznawczej i Neuroterapii",
+      "dateObtained": "2026-05",
+      "thumbnailUrl": "/certificates/cert-02-eeg-biofeedback-i-stopnia-thumb.jpg",
+      "fileUrl": "/certificates/cert-02-eeg-biofeedback-i-stopnia.pdf",
       "fileType": "pdf"
     }
   ]
